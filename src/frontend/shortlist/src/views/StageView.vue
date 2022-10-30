@@ -8,7 +8,7 @@ export default {
 
 <template>
   <ModalFullScreen visible="true">
-    <div>Howdy</div>
+    <div>Add env variable for coveralls token</div>
   </ModalFullScreen>
   <div>Background;</div>
 </template>

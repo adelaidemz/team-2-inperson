@@ -30,4 +30,6 @@ jobs:
       
       - name: Coveralls
         working-directory: ./src/frontend/shortlist
+        env:
+          COVERALLS_REPO_TOKEN: ${{ COVERALLS_REPO_TOKEN }}
         run: npm run coveralls
