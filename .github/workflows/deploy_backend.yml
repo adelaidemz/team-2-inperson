@@ -5,7 +5,12 @@ on:
     branches:
       - '*'
     paths:
-      - 'src/backend'
+      - 'src/backend/'
   pull_request:
     branches:
       - develop
+
+jobs:
+  placeholder:
+    steps:
+      - run: echo "job placeholder"
