@@ -7,3 +7,6 @@ __pycache__
 # Mac Specific:
 .DS_Store
 .idea
+
+# Coveralls
+.coveralls.yml
