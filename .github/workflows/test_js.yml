@@ -27,3 +27,7 @@ jobs:
       - name: NPM test:unit (vitest)
         working-directory: ./src/frontend/shortlist
         run: npm run test:unit -- --run --coverage --passWithNoTests
+      
+      - name: Coveralls
+        working-directory: ./src/frontend/shortlist
+        run: npm run coveralls
