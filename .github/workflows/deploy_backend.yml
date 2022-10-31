@@ -22,7 +22,7 @@ env:
   ECR_REPOSITORY: shortlist-repo          # set this to your Amazon ECR repository name
   ECS_SERVICE: shortlist-backend-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: shortlist-backend                # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: deploy/backend/backend-task-def.json # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: deploy/backend/task-def-simple.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: shortlist-backend-container          # set this to the name of the container in the
                                                # containerDefinitions section of your task definition

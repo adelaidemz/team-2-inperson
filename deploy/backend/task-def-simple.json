@@ -1,0 +1,20 @@
+{
+	"family": "shortlist-backend-task",
+	"containerDefinitions": [{
+		"name": "shortlist-backend-container",
+		"image": "147551946776.dkr.ecr.us-east-1.amazonaws.com/shortlist-repo:latest",
+		"cpu": 0,
+		"memory": 500,
+		"portMappings": [{
+			"hostPort": 80,
+			"protocol": "tcp",
+			"containerPort": 80
+		}],
+		"essential": true,
+		"environment": []
+	}],
+	"requiresCompatibilities": [
+		"EXTERNAL",
+		"EC2"
+	]
+}
