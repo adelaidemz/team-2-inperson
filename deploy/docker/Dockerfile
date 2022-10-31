@@ -29,6 +29,6 @@ RUN cp /xray/xray /usr/bin/xray-daemon
 # copy app to root
 COPY ./root/ /
 
-COPY .env /.env
+# COPY .env /.env
 
 ENTRYPOINT /bin/bash init.sh $SHORTLIST_APP_NAME
