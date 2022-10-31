@@ -1,3 +1,4 @@
+name: DEPLOY - FRONTEND
 on:
   push:
     branches:
